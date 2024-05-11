@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="bg-theme-color-300">
       <div className="container mx-auto px-6 lg:px-0 lg:py-12 py-6">
         <div className="grid lg:grid-cols-4 md:grid-cols-2">
-          <div className="">
+          <div data-aos="fade-right" data-aos-duration="700" className="">
             <img className="md:w-32 w-24" src={logo} alt="" />
             <p className="text-gray-500 py-6">
               This is a big one and i consider it one of the most important
@@ -29,7 +29,7 @@ const Footer = () => {
               <FaLinkedinIn />
             </button>
           </div>
-          <div className="">
+          <div data-aos="fade-up" data-aos-duration="700" className="">
             <p className="text-white font-semibold md:text-xl text-lg py-2">Quick Links</p>
             <ul className="text-gray-500 md:text-lg">
               <li>Home</li>
@@ -39,7 +39,7 @@ const Footer = () => {
               <li>Contact</li>
             </ul>
           </div>
-          <div className="">
+          <div data-aos="fade-down" data-aos-duration="700" className="">
             <p className="text-white font-semibold md:text-xl text-lg py-2">Company</p>
             <ul className="text-gray-500 md:text-lg">
               <li>About</li>
@@ -48,7 +48,7 @@ const Footer = () => {
               <li>Press</li>
             </ul>
           </div>
-          <div className="">
+          <div data-aos="fade-left" data-aos-duration="700" className="">
             <p className="text-white font-semibold md:text-xl text-lg py-2">Information</p>
             <ul className="text-gray-500 md:text-lg">
               <li>Privacy Policy</li>

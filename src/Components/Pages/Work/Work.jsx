@@ -6,15 +6,15 @@ import statistics from "../../../assets/images/icons/statistics.png";
 const Work = () => {
   return (
     <div className="relative container mx-auto lg:py-20 py-10 lg:px-0 px-6">
-      <div className="absolute lg:left-2/4 md:left-1/2 left-32 lg:top-16 top-8">
+      <div data-aos="fade-right" data-aos-duration="700" className="absolute lg:left-2/4 md:left-1/2 left-32 lg:top-16 top-8">
         <img className="lg:ms-11 md:ms-8 w-8 lg:w-12" src={ellipse} alt="" />
       </div>
       <SectionTitle
         title="How it works"
         description="Businesses generally promote their brand, products, and services by identifying audience."
       ></SectionTitle>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:py-16 py-10">
-        <div className="card h-80 shadow-xl border border-gray-300  p-8 rounded-3xl">
+      <div  className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:py-16 py-10">
+        <div data-aos="fade-down-right" data-aos-duration="700" className="card h-80 shadow-xl border border-gray-300  p-8 rounded-3xl">
           <img className="bg-theme-color-200 p-3 rounded-lg" src={box} alt="" />
           <div className="lg:pt-11 pt-8">
             <h3 className="lg:text-2xl text-xl font-semibold">Choose Packages</h3>
@@ -24,7 +24,7 @@ const Work = () => {
             </p>
           </div>
         </div>
-        <div className="card h-80 shadow-xl border border-gray-300  p-8 rounded-3xl">
+        <div data-aos="zoom-in" data-aos-duration="700" className="card h-80 shadow-xl border border-gray-300  p-8 rounded-3xl">
           <img
             className="bg-theme-color-200 p-3 rounded-lg"
             src={calendar}
@@ -39,7 +39,7 @@ const Work = () => {
             </p>
           </div>
         </div>
-        <div className="card h-80 shadow-xl border border-gray-300  p-8 rounded-3xl">
+        <div data-aos="fade-down-left" data-aos-duration="700" className="card h-80 shadow-xl border border-gray-300  p-8 rounded-3xl">
           <img
             className="bg-theme-color-200 p-3 rounded-lg"
             src={statistics}

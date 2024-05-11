@@ -23,13 +23,13 @@ const PopularPackages = () => {
   return (
     <div className="bg-theme-color-200 lg:py-28 py-16">
       <div className="container mx-auto lg:px-0 px-6 flex justify-between items-center lg:pb-16">
-      <div className="relative flex flex-col pb-10">
-        <div className="absolute lg:-top-3 -top-4 lg:left-16 left-6">
+      <div data-aos="fade-right" data-aos-duration="700"  className="relative flex flex-col pb-10">
+        <div  className="absolute lg:-top-3 -top-4 lg:left-16 left-6">
           <img className="" src={ellipse} alt="" />
         </div>
         <h3 className="lg:text-5xl md:text-4xl text-3xl font-semibold">Popular packages</h3>
       </div>
-      <div className="">
+      <div data-aos="fade-left" data-aos-duration="700"  className="">
         <div className="swiper_btn flex gap-4 p-2 bg-white rounded-lg">
           <button
             onClick={() => Swiper.slidePrev()}
@@ -46,7 +46,7 @@ const PopularPackages = () => {
         </div>
       </div>
       </div>
-      <Swiper
+      <Swiper 
         loop={true}
         navigation={{
           nextEl: ".button_next",
@@ -78,8 +78,9 @@ const PopularPackages = () => {
         }}
         modules={[Autoplay, Navigation]}
         className="mySwiper"
+        data-aos="zoom-in" data-aos-duration="700" 
       >
-        <SwiperSlide className="p-4 rounded-2xl">
+        <SwiperSlide  className="p-4 rounded-2xl">
           <div>
             <div className="">
               <img className="rounded-2xl" src={img1} alt="" />
@@ -112,7 +113,7 @@ const PopularPackages = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="p-4 rounded-2xl w-96">
+        <SwiperSlide  className="p-4 rounded-2xl w-96">
           <div>
             <div className="">
               <img className="rounded-2xl" src={img2} alt="" />
@@ -145,7 +146,7 @@ const PopularPackages = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="p-4 rounded-2xl w-96">
+        <SwiperSlide  className="p-4 rounded-2xl w-96">
           <div>
             <div className="">
               <img className="rounded-2xl" src={img3} alt="" />
@@ -178,7 +179,7 @@ const PopularPackages = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="p-4 rounded-2xl w-96">
+        <SwiperSlide  className="p-4 rounded-2xl w-96">
           <div>
             <div className="">
               <img className="rounded-2xl" src={img4} alt="" />
@@ -211,7 +212,7 @@ const PopularPackages = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="p-4 rounded-2xl w-96">
+        <SwiperSlide  className="p-4 rounded-2xl w-96">
           <div>
             <div className="">
               <img className="rounded-2xl" src={img5} alt="" />
@@ -244,7 +245,7 @@ const PopularPackages = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="p-4 rounded-2xl w-96">
+        <SwiperSlide  className="p-4 rounded-2xl w-96">
           <div>
             <div className="">
               <img className="rounded-2xl" src={img6} alt="" />
@@ -277,7 +278,7 @@ const PopularPackages = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="p-4 rounded-2xl w-96">
+        <SwiperSlide  className="p-4 rounded-2xl w-96">
           <div>
             <div className="">
               <img className="rounded-2xl" src={img7} alt="" />

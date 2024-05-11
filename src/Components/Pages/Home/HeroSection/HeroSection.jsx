@@ -11,7 +11,7 @@ const HeroSection = () => {
   return (
     <div className="bg-theme-color-200 flex items-center py-6 lg:py-0">
       <div className="grid md:grid-cols-2 container mx-auto px-6 lg:px-0 gap-y-10">
-        <div className="lg:pt-36">
+        <div data-aos="fade-right" data-aos-duration="700" className="lg:pt-36">
           <img className="lg:ms-32 ms-4 lg:w-16" src={ellipse} alt="" />
           <h1 className="lg:text-6xl text-3xl font-semibold">
             Perfect place for your business promotion <span>✌️</span>
@@ -32,7 +32,7 @@ const HeroSection = () => {
             <img src={card} alt="" />
           </div>
         </div>
-        <div className="flex item-center relative lg:pt-24">
+        <div data-aos="fade-left" data-aos-duration="700" className="flex item-center relative lg:pt-24">
           <div className="absolute lg:right-0 right-0 lg:top-36 md:top-6 -top-10">
             <img className="w-16 md:w-20 lg:w-36" src={ellipse2} alt="" />
           </div>
