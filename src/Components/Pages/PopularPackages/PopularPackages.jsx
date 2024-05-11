@@ -84,7 +84,7 @@ const PopularPackages = () => {
             <div className="">
               <img className="rounded-2xl" src={img1} alt="" />
             </div>
-            <h2 className="text-xl text-start py-4">
+            <h2 className="md:text-xl font-semibold text-start  md:py-4 py-2">
               The basic package to start your promotion
             </h2>
             <div className="flex justify-between">
@@ -117,7 +117,7 @@ const PopularPackages = () => {
             <div className="">
               <img className="rounded-2xl" src={img2} alt="" />
             </div>
-            <h2 className="text-xl text-start py-4">
+            <h2 className="md:text-xl font-semibold text-start  md:py-4 py-2">
               The basic package to start your promotion
             </h2>
             <div className="flex justify-between">
@@ -150,7 +150,7 @@ const PopularPackages = () => {
             <div className="">
               <img className="rounded-2xl" src={img3} alt="" />
             </div>
-            <h2 className="text-xl text-start py-4">
+            <h2 className="md:text-xl font-semibold text-start  md:py-4 py-2">
               The basic package to start your promotion
             </h2>
             <div className="flex justify-between">
@@ -183,7 +183,7 @@ const PopularPackages = () => {
             <div className="">
               <img className="rounded-2xl" src={img4} alt="" />
             </div>
-            <h2 className="text-xl text-start py-4">
+            <h2 className="md:text-xl font-semibold text-start  md:py-4 py-2">
               The basic package to start your promotion
             </h2>
             <div className="flex justify-between">
@@ -216,7 +216,7 @@ const PopularPackages = () => {
             <div className="">
               <img className="rounded-2xl" src={img5} alt="" />
             </div>
-            <h2 className="text-xl text-start py-4">
+            <h2 className="md:text-xl font-semibold text-start  md:py-4 py-2">
               The basic package to start your promotion
             </h2>
             <div className="flex justify-between">
@@ -249,7 +249,7 @@ const PopularPackages = () => {
             <div className="">
               <img className="rounded-2xl" src={img6} alt="" />
             </div>
-            <h2 className="text-xl text-start py-4">
+            <h2 className="md:text-xl font-semibold text-start  md:py-4 py-2">
               The basic package to start your promotion
             </h2>
             <div className="flex justify-between">
@@ -282,7 +282,7 @@ const PopularPackages = () => {
             <div className="">
               <img className="rounded-2xl" src={img7} alt="" />
             </div>
-            <h2 className="text-xl text-start py-4">
+            <h2 className="md:text-xl font-semibold text-start  md:py-4 py-2">
               The basic package to start your promotion
             </h2>
             <div className="flex justify-between">
