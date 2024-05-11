@@ -8,7 +8,7 @@ import {
 const Footer = () => {
   return (
     <div className="bg-theme-color-300">
-      <div className="container mx-auto py-12">
+      <div className="container mx-auto px-6 lg:px-0 lg:py-12 py-6">
         <div className="grid lg:grid-cols-4 md:grid-cols-2">
           <div className="">
             <img src={logo} alt="" />
@@ -59,8 +59,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-black py-5">
-        <div className="container mx-auto text-white flex justify-between">
-          <p>Copyright © 2021 <span className="text-theme-color-100">B</span>izpro</p>
+        <div className="container mx-auto px-6 lg:px-0 text-white flex justify-between">
+          <p>Copyright © 2024 <span className="text-theme-color-100">B</span>izpro</p>
           <p>All Rights Reserved</p>
         </div>
       </div>

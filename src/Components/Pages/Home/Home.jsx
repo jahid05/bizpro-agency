@@ -1,4 +1,5 @@
 import About from "../About/About";
+import GlobalPromotion from "../GlobalPromotion/GlobalPromotion";
 import PopularPackages from "../PopularPackages/PopularPackages";
 import Work from "../Work/Work";
 import HeroSection from "./HeroSection/HeroSection";
@@ -11,6 +12,7 @@ const Home = () => {
             <Work></Work>
             <About></About>
             <PopularPackages></PopularPackages>
+            <GlobalPromotion></GlobalPromotion>
         </div>
     );
 };
